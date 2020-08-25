@@ -13,7 +13,6 @@ public class ClassLoaderTest {
     @Test
     public void test1() {
 
-
         // application or system class loader - loads our own files to classpath
         ClassLoader sysClassLoader = ClassLoaderTest.class.getClassLoader();
         System.out.println(sysClassLoader);

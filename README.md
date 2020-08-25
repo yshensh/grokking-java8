@@ -1,6 +1,8 @@
 ## Grokking Java 8
 The purpose of this repo is to refresh some core topics in Java language and new features introduced in Java 8. <br />
 
+Strongly recommend to use IntelliJ IDEA (paid version) to work on any Java project. <br />
+
 ### Goal
 The goal is to grasp a good understanding on the following topics. 
 This enables developers to read Java source code more comfortably.
