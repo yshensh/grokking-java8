@@ -2,6 +2,8 @@ package oop;
 
 public class Man extends Person {
 
+    int id = 1;
+
     public void playBaseball() {
         System.out.println("Man: play baseball");
     }

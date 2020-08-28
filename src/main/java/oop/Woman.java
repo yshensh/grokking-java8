@@ -2,7 +2,7 @@ package oop;
 
 public class Woman extends Person {
 
-    boolean hasBeard;
+    int id = 2;
 
     public void playSoftball() {
         System.out.println("Woman: play softball");

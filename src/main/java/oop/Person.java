@@ -1,8 +1,8 @@
 package oop;
 
 public class Person {
-    String name;
-    int age;
+
+    int id = -1;
 
     public void sleep() {
         System.out.println("Person: sleep.");
