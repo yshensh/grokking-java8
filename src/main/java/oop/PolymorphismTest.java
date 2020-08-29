@@ -34,13 +34,10 @@ public class PolymorphismTest {
 
         // 属性的多态性（看父类的引用）
         System.out.println(person.id); // -1
-
-
     }
 
     public void func(Person person) {
         person.sleep();
         person.work();
     }
-
 }
