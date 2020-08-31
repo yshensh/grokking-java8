@@ -41,3 +41,46 @@ public class PolymorphismTest {
         person.work();
     }
 }
+
+
+class Person {
+    int id = -1;
+    public void sleep() {
+        System.out.println("Person: sleep.");
+    }
+    public void work() {
+        System.out.println("Person: work.");
+    }
+}
+
+
+class Man extends Person {
+    int id = 1;
+    public void playBaseball() {
+        System.out.println("Man: play baseball");
+    }
+    @Override
+    public void sleep() {
+        System.out.println("Man: sleep");
+    }
+    @Override
+    public void work() {
+        System.out.println("Man: work");
+    }
+}
+
+
+class Woman extends Person {
+    int id = 2;
+    public void playSoftball() {
+        System.out.println("Woman: play softball");
+    }
+    @Override
+    public void sleep() {
+        System.out.println("Women: sleep");
+    }
+    @Override
+    public void work() {
+        System.out.println("Women: work");
+    }
+}
