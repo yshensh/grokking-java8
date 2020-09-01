@@ -4,7 +4,7 @@ package reflection;
 public class Person extends Creature<String> implements Comparable<String>, MyInterface{
     private String name;
     public int age;
-    protected int id;
+    public int id;
 
     public Person() {
 
@@ -24,6 +24,10 @@ public class Person extends Creature<String> implements Comparable<String>, MyIn
     private String show(String nation) {
         System.out.println("Nation: " + nation);
         return nation;
+    }
+
+    private static void showDesc() {
+        System.out.println("description");
     }
 
     public String display(String hobby) {
