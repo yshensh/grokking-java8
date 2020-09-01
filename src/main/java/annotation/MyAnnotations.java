@@ -14,6 +14,3 @@ import static java.lang.annotation.ElementType.LOCAL_VARIABLE;
 public @interface MyAnnotations {
     MyAnnotation[] value();
 }
-
-
-
