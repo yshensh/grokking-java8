@@ -1,16 +1,33 @@
 package reflection;
 
-public class Person {
-
+@MyAnnotation(value="hi")
+public class Person extends Creature<String> implements Comparable<String>, MyInterface{
     private String name;
     public int age;
+    protected int id;
 
-    @Override
-    public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
+    public Person() {
+
+    }
+
+    @MyAnnotation(value="abc")
+    private Person(String name) {
+        this.name = name;
+    }
+
+    Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    @MyAnnotation
+    private String show(String nation) {
+        System.out.println("Nation: " + nation);
+        return nation;
+    }
+
+    public String display(String hobby) {
+        return hobby;
     }
 
     public String getName() {
@@ -29,7 +46,21 @@ public class Person {
         this.age = age;
     }
 
-    public Person() {
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 
+    @Override
+    public int compareTo(String o) {
+        return 0;
+    }
+
+    @Override
+    public void info() {
+        System.out.println("person");
+    }
 }
