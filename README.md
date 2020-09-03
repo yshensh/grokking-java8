@@ -12,7 +12,9 @@ It also provides good foundation to learn Spring framework (MVC, AOP) for web pr
 - OOP (Data Abstraction, Encapsulation, Inheritance, Polymorphism)
 - Exception handling
 - Multithreading
+- Collections
 - Generics
+- Enum
 - Annotations
 
 (New in Java 8)
