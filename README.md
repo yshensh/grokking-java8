@@ -18,7 +18,7 @@ It also provides good foundation to learn Spring framework (MVC, AOP) for web pr
 - Annotations
 
 (New in Java 8)
-- Lamda expressions
+- Lambda expressions
 - Streams
 - Using Optional as a better alternative to null
 - New Date and Time API
