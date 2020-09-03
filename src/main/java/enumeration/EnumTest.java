@@ -15,10 +15,6 @@ package enumeration;
  *    valueOf(String str)：可以把一个字符串转为对应的枚举类对象。要求字符串必须是枚举类对象的“名字”。如不是，会有运行时异常：IllegalArgumentException。
  *    toString()：返回当前枚举类对象常量的名称
  *
- * 四、使用enum关键字定义的枚举类实现接口的情况
- *   情况一：实现接口，在enum类中实现抽象方法
- *   情况二：让枚举类的对象分别实现接口中的抽象方法
- *
  */
 
 public class EnumTest {
