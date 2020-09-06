@@ -124,7 +124,7 @@ public class ExceptionTest {
 
     class Student{
         private int id;
-        public void register (int id) throws Exception {
+        public void register (int id) throws RuntimeException {
             if(id > 0){
                 this.id = id;
             } else {
