@@ -1,4 +1,4 @@
-package stream;
+package optional;
 
 import org.junit.Test;
 
