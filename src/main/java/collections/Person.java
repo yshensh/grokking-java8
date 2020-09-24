@@ -53,8 +53,11 @@ public class Person {
                 Objects.equals(name, person.name);
     }
 
-//    @Override
-//    public int hashCode() {
-//        return Objects.hash(name, age);
-//    }
+    @Override
+    public int hashCode(){
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + age; // why 31 ? 2<<5 - 1 = 31
+        return result;
+    }
+
 }
