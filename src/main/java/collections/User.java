@@ -62,7 +62,7 @@ public class User implements Comparable{
     public int compareTo(Object o) {
         if(o instanceof User){
             User user = (User)o;
-            int compare = this.name.compareTo(user.name);
+            int compare = -this.name.compareTo(user.name);
             if(compare != 0){
                 return compare;
             }else{
