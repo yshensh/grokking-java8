@@ -34,7 +34,7 @@ class MyThreadOne extends Thread {
     public void run() {
         for (int i = 0; i < 100; i++) {
             if(i % 2 == 0){
-                System.out.println(Thread.currentThread().getName() + ":" + i);
+                System.out.println("方式一：继承于Thread类  " + Thread.currentThread().getName() + ":" + i);
             }
         }
     }
@@ -49,7 +49,7 @@ class MyThreadTwo implements Runnable{
     public void run() {
         for (int i = 0; i < 100; i++) {
             if(i % 2 == 0){
-                System.out.println(Thread.currentThread().getName() + ":" + i);
+                System.out.println("方式二：实现Runnable接口  " + Thread.currentThread().getName() + ":" + i);
             }
         }
     }
