@@ -21,7 +21,6 @@ It also provides good foundation to learn Spring framework (MVC, AOP) for web pr
 - Lambda expressions
 - Streams
 - Using Optional as a better alternative to null
-- New Date and Time API
 
 ### References
 [Java 8 in Action: Lambdas, streams, and functional-style programming](https://www.oreilly.com/library/view/java-8-in/9781617291999/).
